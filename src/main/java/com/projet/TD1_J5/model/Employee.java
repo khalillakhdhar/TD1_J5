@@ -24,6 +24,21 @@ public Employee() {
 	super();
 }
 
+String evaluer()
+{
+if(salaire<1800)
+	return "faible";
+else if(salaire <6500)
+	return "acceptable";
+else 
+	return "bonne";
+
+}
+@Override
+public String toString() {
+	return "Employee [nom=" + nom + ", salaire=" + salaire + ", evaluer()=" + evaluer() + "]";
+}
+
 
 
 

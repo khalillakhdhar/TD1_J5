@@ -13,5 +13,7 @@ Salaire: <input type="number" name="salaire">
 <input type="submit" value="envoyer">
 
 </form>
+<br>
+${employee} <br>
 </body>
 </html>

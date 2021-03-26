@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.projet.TD1_J5.model.Employee;
+
 @Controller
 public class HomeController {
 
@@ -35,7 +37,8 @@ public class HomeController {
 	{
 		String nom=req.getParameter("nom");
 		String salaire=req.getParameter("salaire");
-		
+		Employee em=new Employee(nom, Integer.parseInt(salaire));
+		m.addAttribute("employee",em.toString());
 		return "Employee";
 	}
 	
