@@ -10,5 +10,6 @@
     <body>
         <h1>Welcome to Spring MVC!</h1>
         <a href="p2">Découvrire Spring</a>
+        <a href="evaluation">Evaluer une salaire</a>
     </body>
 </html>
