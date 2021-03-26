@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+<form method="post" action="evaluation">
+Nom:<input type="text" name="nom" ><br>
+Salaire: <input type="number" name="salaire">
+<input type="submit" value="envoyer">
 
+</form>
 </body>
 </html>
