@@ -9,6 +9,6 @@
     </head>
     <body>
         <h1>Welcome to Spring MVC!</h1>
-        <a href="p2">allez à page2</a>
+        <a href="p2">Découvrire Spring</a>
     </body>
 </html>
