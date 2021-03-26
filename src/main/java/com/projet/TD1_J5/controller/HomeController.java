@@ -41,5 +41,11 @@ public class HomeController {
 		m.addAttribute("employee",em.toString());
 		return "Employee";
 	}
+	@RequestMapping("teste")
+	public String tested() 
+{
+		
+		return "rappel";
+	}
 	
 }
